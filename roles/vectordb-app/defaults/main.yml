@@ -1,0 +1,24 @@
+---
+# Default application configuration
+app_title: "VectorDB Interface"
+app_subtitle: "Powerful vector database operations for AI applications"
+app_icon: "🧠"
+
+# API configuration
+api_base_url: "https://embeddings100.cloud-stacks.com"
+api_endpoints:
+  embed: "/embed"
+  index: "/index/{collection_name}"
+  search: "/search"
+
+# Theme configuration
+theme:
+  primary_color: "#4B56D2"
+  secondary_color: "#82C3EC"
+  background_color: "#0E1117"
+  secondary_background_color: "#1E2129"
+
+# Application deployment
+app_dir: "/opt/vectordb-app"
+app_user: "streamlit"
+app_port: 8501

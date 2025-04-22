@@ -1,0 +1,8 @@
+---
+- name: Deploy VectorDB Interface Application
+  hosts: app_servers
+  vars_files:
+    - vars/environment.yml  # Environment-specific variables
+
+  roles:
+    - role: vectordb-app

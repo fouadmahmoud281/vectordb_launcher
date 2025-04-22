@@ -1,0 +1,10 @@
+---
+# Production environment configuration
+app_title: "Production VectorDB Interface"
+api_base_url: "https://api.production-domain.com"
+app_port: 8501
+
+# Uncomment for development environment
+# app_title: "Dev VectorDB Interface"
+# api_base_url: "https://dev-api.domain.com"
+# app_port: 8501
